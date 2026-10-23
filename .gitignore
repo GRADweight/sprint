@@ -1,0 +1,7 @@
+.venv/
+prototypes/
+__pycache__/
+*.pyc
+gw-proto/
+.terraform/
+terraform.tfstate*
