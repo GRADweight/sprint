@@ -17,7 +17,8 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: pip install pytest
-      - run: pip install .
+      # pure-stdlib-Paket → kein pip-install nötig; conftest.py stellt den
+      # Source-Pfad, damit pytest die Quelle direkt importiert.
       - run: pytest -v
 
   public-safety:
