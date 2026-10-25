@@ -63,3 +63,7 @@ pytest -v        # 10 Tests, null externe Abhängigkeit
 
 > Teil von GRADweight — KMU-AI-Architektur-Netzwerk.
 > Finde uns: github.com/GRADweight | Frage? Eröffne ein Issue.
+
+
+---
+> **Pruefen vor Public:** `SICHERHEIT_UND_GRENZEN.md` — Bekannte Fehler, Haftung, Lizenz-Erklaerung (ein Satz je Repo).
