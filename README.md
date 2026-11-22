@@ -66,4 +66,4 @@ pytest -v        # 10 Tests, null externe Abhängigkeit
 
 
 ---
-> **Pruefen vor Public:** `SICHERHEIT_UND_GRENZEN.md` — Bekannte Fehler, Haftung, Lizenz-Erklaerung (ein Satz je Repo).
+> **Sicherheit, Haftung, Grenzen:** `SICHERHEIT_UND_GRENZEN.md` (Bekannte Fehler, Haftung, Lizenz-Erklaerung, ein Satz je Repo).
