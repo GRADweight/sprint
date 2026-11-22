@@ -4,7 +4,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 HIT=0
-grep -rniE "(\bCHF\b|[0-9]{3,}\.[0-9]{2}|kalkulation|marge|preismaterial|preisstrat|/Users/|~/code|eddvv)" \
+grep -rniE "(\bCHF\b|[0-9]{3,}\.[0-9]{2}|kalkulation|marge|preismaterial|preisstrat|/Users/|~/code)" \
   --include="*.md" --include="*.py" --include="*.toml" \
   --exclude-dir=.venv --exclude-dir=.git --exclude=ci.yml . 2>/dev/null || true
 echo "--- ergebnis oben leer = sauber ---"

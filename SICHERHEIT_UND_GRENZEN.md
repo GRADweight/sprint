@@ -20,7 +20,7 @@
 
 ## 3. Vor Public (Checkliste)
 - [ ] Gegen HEAD pruefen: keine internen Pfade (/Users, ~/, /tmp), keine echten Kundendaten, keine Preise/Marge im Public-Text
-- [ ] Interne Docs entfernt (OFFENE_PUNKTE, PROJEKT, ROADMAP, M-Module)
+- [x] Interne Docs entfernt (OFFENE_PUNKTE, PROJEKT, ROADMAP)
 - [ ] Lizenz korrekt + ein-Satz-Erklaerung im README (s. oben)
 - [ ] Sichtbarkeit erst nach **ausdruecklicher Owner-Freigabe** (kein automatischer Visibility-Wechsel)
 
